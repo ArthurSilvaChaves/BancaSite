@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 51, 0);
+    font-family:"Comic Neue",cursive;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.capa{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+

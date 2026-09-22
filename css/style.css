@@ -5,15 +5,6 @@ body{
     color: white;
 }
 
-.navdiv{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-    margin-bottom: 1%;
-}
-
 /* navbar */
 nav{
     width: 100%;
@@ -42,6 +33,8 @@ nav a:active {
 }
 
 .hero{
+    margin-bottom: 1%;
+    border-bottom: #000067 solid;
     padding: 1%;
     display: flex;
     background-image: url('../assets/fundo1.jpg');

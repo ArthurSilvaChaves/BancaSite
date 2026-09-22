@@ -1,0 +1,28 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #000067;
+    margin-bottom: 2%;
+    border-bottom: #000067 solid;
+}
+
+nav a{
+    font-family: 'Courier New', Courier, monospace;
+    transform: skew(-15deg);
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    background-color: red;
+    padding: 1%;
+    color: white;
+    transition: 250ms;
+}
+
+nav a:hover {
+    background-color: #000067;
+}
+
+nav a:active {
+    background-color: rgb(7, 0, 63);
+}
