@@ -42,10 +42,11 @@ nav a:active {
 }
 
 .hero{
-    padding: 10px;
+    padding: 1%;
     display: flex;
-    background: url("/assets/fundo1.jpg");
+    background-image: url('../assets/fundo1.jpg');
 }
+
 
 .hero span{
     border-radius: 4%;
@@ -55,8 +56,25 @@ nav a:active {
     width: 40%;
 }
 
+.hero1{
+    margin-top: 1%;
+    border-top: solid #000067;
+    padding: 1%;
+    display: flex;
+    justify-content: right;
+    background: url("../assets/fundo1.jpg");
+}
+
+.hero1 span{
+    border-radius: 4%;
+    padding: 1.2%;
+    color: black;
+    background-color: #dddddddf;
+    width: 40%;
+}
+
 footer{
-    margin-top: 10px;
+    margin-top: 1%;
     padding: 2%;
     display: flex;
     background-color: #000067;
