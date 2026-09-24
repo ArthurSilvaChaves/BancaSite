@@ -3,7 +3,6 @@ nav{
     display: flex;
     align-items: center;
     background-color: #000067;
-    margin-bottom: 2%;
     border-bottom: #000067 solid;
 }
 
@@ -20,7 +19,7 @@ nav a{
 }
 
 nav a:hover {
-    background-color: #000067;
+    background-color: rgb(138, 0, 0);
 }
 
 nav a:active {

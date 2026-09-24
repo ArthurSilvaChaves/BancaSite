@@ -1,3 +1,33 @@
 body{
     margin:0;
 }
+
+.master{
+    display: flex;
+    height: 1000px;
+}
+
+.quadrinhos{
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552),black), url("../assets/fundo_quadrinhos.jpg") ;
+    background-size: cover;
+}
+
+.jornais{
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(black,rgba(0,0,0,0.552)), url("../assets/fundo_jornais.jpg");
+    background-size: cover;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    padding: 1%;
+    border-radius: 2cap;
+}
