@@ -21,3 +21,15 @@ body{
 .h1_principal.active{
     max-width: 100%;
 }
+
+@media (max-width: 768px){
+    nav{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a{
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+}
