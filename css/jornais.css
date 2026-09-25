@@ -6,30 +6,23 @@ body{
 }
 
 .h1_principal{
-    border-right: red solid 5px;
+    border-right: #ddd solid 5px;
     cursor: default;
     white-space: nowrap;
     overflow: hidden;
     background-color: black;
     max-width: 4%;
+
     padding: 0.5%;
     color: white;
     transition: max-width 1s ease-in-out;
 }
 
+.h1_principal:hover{
+    cursor: pointer;
+}
 
 .h1_principal.active{
     max-width: 100%;
 }
 
-@media (max-width: 768px){
-    nav{
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    nav a{
-        margin-bottom: 5%;
-        padding: 5%;
-    }
-}
